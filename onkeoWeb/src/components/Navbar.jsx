@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
+  const [showDropdown, setShowDropdown] = useState(false);
+
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-logo">
@@ -17,13 +19,30 @@ function Navbar() {
         <Link to="/about" className="navbar-link">
           About
         </Link>
-        <Link to="/services" className="navbar-link">
-          Services
-        </Link>
+
+        {/* Dropdown for Services */}
+        <div 
+          className="navbar-link dropdown" 
+          onMouseEnter={() => setShowDropdown(true)} 
+          onMouseLeave={() => setShowDropdown(false)}
+        >
+          <span>Services </span>
+          {showDropdown && (
+            <div className="dropdown-menu">
+              <Link to="/services/architecture" className="dropdown-item">
+                Design your property
+              </Link>
+              <Link to="/services/build" className="dropdown-item">
+                Build your property
+              </Link>
+            </div>
+          )}
+        </div>
+
         <Link to="/contact" className="navbar-link">
           Contact
         </Link>
-        <Link to="/testimonials" className='navbar-link'>
+        <Link to="/testimonials" className="navbar-link">
           Testimonials
         </Link>
       </div>
