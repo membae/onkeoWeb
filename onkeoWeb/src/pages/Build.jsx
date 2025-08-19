@@ -8,6 +8,7 @@ function Build() {
       <Navbar/>
       <div>
         <h2>build</h2>
+        {/* //padding from the top */}
       </div>
       <Footer/>
     </div>

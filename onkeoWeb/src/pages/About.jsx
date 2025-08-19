@@ -7,46 +7,69 @@ function About() {
     <div>
       
       <style>
-        {`
-          .about-container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            font-family: Arial, sans-serif;
-          }
+  {`
+    .about-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      font-family: Arial, sans-serif;
+    }
 
-          .about-section {
-            display: flex;
-            align-items: center;
-            margin-bottom: 40px;
-            gap: 20px;
-          }
+    .about-section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+      gap: 20px;
+    }
 
-          .about-section img {
-            width: 45%;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-          }
+    .about-section img {
+      width: 45%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
 
-          .about-section p {
-            width: 55%;
-            font-size: 1.1rem;
-            line-height: 1.6;
-            color: #333;
-          }
-         h2 {
-            text-align: center;
-            font-size: 2rem;
-            margin-bottom: 30px;
-            color: #222;
-          }
+    .about-section p {
+      width: 55%;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #333;
+    }
 
-          /* Alternate layout */
-          .about-section:nth-child(even) {
-            flex-direction: row-reverse;
-          }
-        `}
-      </style>
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #222;
+    }
+
+    /* Alternate layout for large screens */
+    .about-section:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    /* ✅ Mobile responsiveness */
+    @media (max-width: 768px) {
+      .about-section {
+        flex-direction: column; /* stack text and image */
+        text-align: center;
+      }
+
+      .about-section:nth-child(even) {
+        flex-direction: column; /* prevent row-reverse on mobile */
+      }
+
+      .about-section img,
+      .about-section p {
+        width: 100%; /* take full width */
+      }
+
+      .about-section img {
+        margin-top: 15px; /* space between text and image */
+      }
+    }
+  `}
+</style>
+
       <Navbar/>
 
       <div className="about-container">
