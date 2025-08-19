@@ -1,0 +1,28 @@
+{
+    "testimonials":[
+        {
+            "id":1,
+            "name":"Philip",
+            "title":"Highest Standard of Workmanship",
+            "feedback":"We were absolutely delighted with Onkeo's work on the final results achieved in our renovation. All members of staff involved were professional, polite and produced the highest standard of workmanship. Onkeo helped create the most beautiful home for us and we have no hesitation in recommending their team to anyone looking for the right company to bring their dream home to life. "
+        },
+        {
+            "id":2,
+            "name":"Memba",
+            "title":"Comprehensive, Bespoke Package",
+            "feedback":"Onkeo offers a comprehensive, bespoke package with no hard sell. They are open and transparent in all dealings, which makes those difficult decisions and managing the finances of a project easier. The entire Onkeo team have been amazing. Honest, clear communication, reliability, professionalism and quality workmanship, with attention to detail being constants. We would not hesitate to recommend. "
+        },
+        {
+            "id":2,
+            "name":"Memba",
+            "title":"Comprehensive, Bespoke Package",
+            "feedback":"Onkeo offers a comprehensive, bespoke package with no hard sell. They are open and transparent in all dealings, which makes those difficult decisions and managing the finances of a project easier. The entire Onkeo team have been amazing. Honest, clear communication, reliability, professionalism and quality workmanship, with attention to detail being constants. We would not hesitate to recommend. "
+        },
+        {
+            "id":2,
+            "name":"Memba",
+            "title":"Comprehensive, Bespoke Package",
+            "feedback":"Onkeo offers a comprehensive, bespoke package with no hard sell. They are open and transparent in all dealings, which makes those difficult decisions and managing the finances of a project easier. The entire Onkeo team have been amazing. Honest, clear communication, reliability, professionalism and quality workmanship, with attention to detail being constants. We would not hesitate to recommend. "
+        }
+    ]
+}
