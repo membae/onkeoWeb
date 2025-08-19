@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 
 function Architecture() {
   return (
@@ -36,6 +37,7 @@ function Architecture() {
           }
         `}
       </style>
+      <Navbar/>
 
       <div className="architecture-container">
         <h2>Our Architecture Design</h2>
@@ -54,6 +56,7 @@ function Architecture() {
           className="architecture-image"
         />
       </div>
+      <Footer/>
     </div>
   );
 }

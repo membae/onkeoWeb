@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 function Testimonials() {
     const[testimonials, setTestimonials]=useState([])
@@ -83,6 +84,7 @@ function Testimonials() {
         }
         `}
       </style>
+      <Navbar/>
 
       <div>
         <img src="/src/assets/homeslide3.jpg" alt="" />
