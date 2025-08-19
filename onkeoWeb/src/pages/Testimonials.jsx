@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import Footer from '../components/Footer'
 
 function Testimonials() {
     const[testimonials, setTestimonials]=useState([])
@@ -110,6 +111,7 @@ function Testimonials() {
             }
         </div>
       </section>
+      <Footer/>
     </div>
   )
 }
