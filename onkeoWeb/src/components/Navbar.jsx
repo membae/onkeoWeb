@@ -7,44 +7,46 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="navbar-logo">
-        OnkeoWeb
-      </Link>
-
-      {/* Navigation Links */}
-      <div className="navbar-links">
-        <Link to="/" className="navbar-link">
-          Home
-        </Link>
-        <Link to="/about" className="navbar-link">
-          About
+      <div className="navbar-container">
+        <Link to="/" className="navbar-logo">
+          OnkeoWeb
         </Link>
 
-        {/* Dropdown for Services */}
-        <div 
-          className="navbar-link dropdown" 
-          onMouseEnter={() => setShowDropdown(true)} 
-          onMouseLeave={() => setShowDropdown(false)}
-        >
-          <span>Services </span>
-          {showDropdown && (
-            <div className="dropdown-menu">
-              <Link to="/services/architecture" className="dropdown-item">
-                Design your property
-              </Link>
-              <Link to="/services/build" className="dropdown-item">
-                Build your property
-              </Link>
-            </div>
-          )}
+        {/* Navigation Links */}
+        <div className="navbar-links">
+          <Link to="/" className="navbar-link">
+            Home
+          </Link>
+          <Link to="/about" className="navbar-link">
+            About
+          </Link>
+
+          {/* Dropdown for Services */}
+          <div
+            className="navbar-link dropdown"
+            onMouseEnter={() => setShowDropdown(true)}
+            onMouseLeave={() => setShowDropdown(false)}
+          >
+            <span>Services</span>
+            {showDropdown && (
+              <div className="dropdown-menu">
+                <Link to="/services/architecture" className="dropdown-item">
+                  Design your property
+                </Link>
+                <Link to="/services/build" className="dropdown-item">
+                  Build your property
+                </Link>
+              </div>
+            )}
+          </div>
+
+          <Link to="/contact" className="navbar-link">
+            Contact
+          </Link>
+          <Link to="/testimonials" className="navbar-link">
+            Testimonials
+          </Link>
         </div>
-
-        <Link to="/contact" className="navbar-link">
-          Contact
-        </Link>
-        <Link to="/testimonials" className="navbar-link">
-          Testimonials
-        </Link>
       </div>
     </nav>
   );

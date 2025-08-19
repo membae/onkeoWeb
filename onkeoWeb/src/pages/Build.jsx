@@ -6,7 +6,9 @@ function Build() {
   return (
     <div>
       <Navbar/>
-      Build
+      <div>
+        <h2>build</h2>
+      </div>
       <Footer/>
     </div>
   )
