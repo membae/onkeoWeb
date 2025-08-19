@@ -4,11 +4,11 @@ import "./Imageslider.css"
 const images=[
     {
         image: '/src/assets/homeslide1.jpg',
-        text:"Your journey to a new home starts here"
+        text: <>Your journey to a new home <br /> starts here</>
     },
     {
         image: '/src/assets/homeslide2.jpg',
-        text:"We help you find the perfect neighborhood"
+        text: <>We help you find the <br /> perfect neighborhood</>
     },
     {
         image: '/src/assets/homeslide3.jpg',
@@ -16,11 +16,11 @@ const images=[
     },
     {
         image: '/src/assets/homeslide4.jpg',
-        text:"Spacious, elegant, and affordable living"
+        text:<>Spacious, elegant, <br/> affordable living</>
     },
     {
         image: '/src/assets/homeslide5.jpg',
-        text:"'Discover your dream home with OnkeoWeb"
+        text: <>Discover your dream home <br /> with OnkeoWeb</>
     }
 ];
 
