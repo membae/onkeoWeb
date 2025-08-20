@@ -10,20 +10,19 @@ function Home() {
       <Navbar />
       <Imageslider />
       <section className="main">
-        <h1>ONKEO ENGINEERS LTD - Contacting Firm Kenya</h1>
+        <div>
+          <h3>Construction works</h3>
+        <h1>We build spaces you dream of</h1>
+        <h2>About Onkeo LTD</h2>
         <p>
-          Welcome to Burhani Engineers, one of the best engineering companies in
-          Nairobi, Kenya. We are committed to excellence and have been a
-          cornerstone of innovation and reliability in the engineering industry
-          for many years.
+          Customers are at the centre of everything we do and that is reflected in our company’s vision and values. While our vision defines our destination, our core values serve as our roadmap, guiding our actions for the benefit of all our customers.
         </p>
+        <button> About Us</button>
+        </div>
 
-        <p>
-          We take pride in our client-centric approach, ensuring that each
-          project is tailored to meet its unique needs. Our holistic approach
-          ensures that clients receive comprehensive and sustainable engineering
-          solutions that align with global standards and local regulations.
-        </p>
+        <div>
+          <img src="/src/assets/homeslide2.jpg" alt="" />
+        </div>
       </section>
 
       <Footer />
