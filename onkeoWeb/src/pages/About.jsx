@@ -76,14 +76,14 @@ function About() {
         <h2>About Us</h2>
 
         <div className="about-section">
-          <img src="/src/assets/homeslide1.jpg" alt="Architecture" />
+          <img src="/homeslide1.jpg" alt="Architecture" />
           <p>
             We are the home of extraordinary properties. We are a customer-focused company specialising in all things property:designing, building and tending to the most unique, exquisite and beautiful homes.
           </p>
         </div>
 
         <div className="about-section">
-          <img src="/src/assets/homeslide2.jpg" alt="Construction" />
+          <img src="/homeslide2.jpg" alt="Construction" />
           <p>
             We bring together skilled architects, engineers, and builders to
             deliver end-to-end solutions — from concept design to project
@@ -92,7 +92,7 @@ function About() {
         </div>
 
         <div className="about-section">
-          <img src="/src/assets/homeslide3.jpg" alt="Sustainability" />
+          <img src="/homeslide3.jpg" alt="Sustainability" />
           <p>
             As a forward-looking company, we embrace technology and sustainable
             construction practices to build spaces that not only meet today’s
@@ -104,13 +104,13 @@ function About() {
             <p>We are a specialist team of architects, designers and luxury property developers working across Kenya.</p>
         </div>
         <div className="about-section">
-            <img src="/src/assets/homeslide2.jpg" alt="" />
+            <img src="/homeslide2.jpg" alt="" />
             <p>We pride ourselves on working in close collaboration with our clients, providing support and advice on a whole variety of property requirements. Specialists in architecture, building and interiors our diverse and friendly team will be with you from start to finish, with the vision and the knowledge to make your dream home a reality.</p>
         </div>
         <h2>The Onkeo story</h2>
         <div className="about-section">
             
-            <img src="/src/assets/homeslide1.jpg" alt="" />
+            <img src="/homeslide1.jpg" alt="" />
             <p> Founded in 2025 by <strong>Eric Onkeo</strong>, our company is built
             on a passion for design, innovation, and excellence in architecture
             and construction. We are committed to transforming ideas into

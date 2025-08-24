@@ -3,23 +3,23 @@ import "./Imageslider.css"
 
 const images=[
     {
-        image: '/src/assets/homeslide1.jpg',
+        image: '/homeslide1.jpg',
         text: <>Your journey to a new home <br /> starts here</>
     },
     {
-        image: '/src/assets/homeslide2.jpg',
+        image: '/homeslide2.jpg',
         text: <>We help you find the <br /> perfect neighborhood</>
     },
     {
-        image: '/src/assets/homeslide3.jpg',
+        image: '/homeslide3.jpg',
         text:"Modern architecture and reliable agents"
     },
     {
-        image: '/src/assets/homeslide4.jpg',
+        image: '/homeslide4.jpg',
         text:<>Spacious, elegant, <br/> affordable living</>
     },
     {
-        image: '/src/assets/homeslide5.jpg',
+        image: '/homeslide5.jpg',
         text: <>Discover your dream home <br /> with OnkeoWeb</>
     }
 ];

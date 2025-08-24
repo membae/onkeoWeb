@@ -87,7 +87,7 @@ function Testimonials() {
       <Navbar/>
 
       <div>
-        <img src="/src/assets/homeslide3.jpg" alt="" />
+        <img src="/homeslide3.jpg" alt="" />
       </div>
 
       <section className="testHead">

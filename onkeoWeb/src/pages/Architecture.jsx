@@ -52,7 +52,7 @@ function Architecture() {
           a story and blends functionality with beauty.
         </p>
         <img
-          src="https://via.placeholder.com/600x400"
+          src="/homeslide3.jpg"
           alt="Architecture Design"
           className="architecture-image"
         />
