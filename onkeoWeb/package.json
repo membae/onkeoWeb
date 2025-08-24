@@ -8,9 +8,13 @@
     "vite": "^6.3.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
-  },
+  "start": "json-server --watch server/data.json --port $PORT",
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "server": "json-server --watch server/data.json --port 5000"
+}
+,
   "keywords": [],
   "author": "",
   "license": "ISC",
