@@ -32,92 +32,110 @@ function Contact() {
   return (
     <div>
       <style>{`
-        .contact-container {
-          max-width: 600px;
-          margin: 50px auto;
-          padding: 20px;
-          border: 1px solid #ccc;
-          border-radius: 10px;
-          background: #f9f9f9;
-          font-family: Arial, sans-serif;
-        }
-        .contact-container h4 {
-          text-align: center;
-          margin-bottom: 10px;
-          color: #333;
-          font-weight: normal;
-        }
-        .contact-container h2 {
-          text-align: center;
-          margin-bottom: 20px;
-          color: #333;
-        }
-        .contact-form {
-          display: flex;
-          flex-direction: column;
-        }
-        .contact-form label {
-          margin: 10px 0 5px;
-          font-weight: bold;
-        }
-        .contact-form input,
-        .contact-form textarea {
-          padding: 10px;
-          border: 1px solid #ccc;
-          border-radius: 5px;
-          font-size: 16px;
-          margin-bottom: 10px;
-        }
-        .contact-form textarea {
-          resize: vertical;
-          min-height: 100px;
-        }
-        .button-container {
-          display: flex;
-          justify-content: center;
-          width: 100%;
-        }
-        .contact-form button {
-          margin-top: 10px;
-          width: 120px;
-          padding: 12px;
-          background: #007bff;
-          color: white;
-          border: none;
-          border-radius: 5px;
-          cursor: pointer;
-          font-size: 16px;
-          transition: background 0.3s ease;
-        }
-        .contact-form button:hover {
-          background: #0056b3;
-        }
-        .info-section {
-        display: flex;
-        justify-content: space-around;
-        margin: 40px 0;
-        padding: 20px;
-        background: #f9f9f9;
-        }
+  .contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  .contact-container h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: normal;
+  }
+  .contact-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .contact-form button {
+    margin-top: 10px;
+    width: 120px;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  .contact-form button:hover {
+    background: #0056b3;
+  }
 
-        .office, .career {
-        width: 45%;
-        padding: 20px;
-        background: white;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        text-align: center;
-        }
+  .info-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    gap: 20px;
+    flex-wrap: wrap; /* helps when screen shrinks */
+  }
 
-        .office h2, .career h2 {
-        color: black;
-        margin-bottom: 30px;
-        }
-        .office p, .career p {
-        color: black;
-        margin-bottom: 30px;
-        }
-      `}</style>
+  .office, .career {
+    flex: 1;
+    min-width: 280px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .office h2, .career h2 {
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .office p, .career p {
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  /* ✅ Responsive fix */
+  @media (max-width: 768px) {
+    .info-section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .office, .career {
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+`}</style>
+
       <Navbar/>
 
       <div className="contact-container">
