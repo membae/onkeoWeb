@@ -6,7 +6,7 @@ function Testimonials() {
     const[testimonials, setTestimonials]=useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:5000/testimonials')
+        fetch('https://onkeoweb-1.onrender.com/testimonials')
         .then((res)=>res.json())
         .then((data)=>setTestimonials(data))
         .catch((error)=>console.error("error fetching testimonials",error))
