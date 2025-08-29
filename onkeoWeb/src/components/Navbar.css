@@ -19,12 +19,12 @@
   align-items: center;
 }
 
-.navbar-logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #2563eb;
-  text-decoration: none;
+.navbar-logo img {
+  width: 100px;
+  height: auto; /* Keeps aspect ratio */
+  border-radius: 50%
 }
+
 
 .navbar-links {
   display: flex;

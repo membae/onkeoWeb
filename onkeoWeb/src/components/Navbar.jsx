@@ -10,7 +10,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          OnkeoWeb
+          <img src="/arqmat logo.png" alt="" />
         </Link>
 
         {/* Hamburger icon */}
