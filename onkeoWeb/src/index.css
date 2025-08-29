@@ -6,6 +6,7 @@
   margin: 3rem auto;
   padding: 2rem;
   gap: 2rem;                 /* space between text and image */
+  background-color: rgb(174, 220, 226)
 }
 
 .main div {
@@ -64,4 +65,11 @@
     max-width: 100%;
     margin-top: 1.5rem;
   }
+}
+/* index.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color:  rgb(174, 220, 226)
 }

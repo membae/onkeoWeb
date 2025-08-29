@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-column">
           <h4>Office Location</h4>
           <p>
-            OnkeoWeb Ltd<br />
+            Arqmat Builders Limited <br/>
             P.O. Box 99 - Kisii, Kenya<br />
             Email: info@onkeoweb.com<br />
             Phone: +254 700 123 456
@@ -20,7 +20,7 @@ function Footer() {
         <div className="footer-column">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="/about">Home</a></li>
+            <li><a href="/home">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/services">Services</a></li>
             <li><a href="/contact">Contact</a></li>
