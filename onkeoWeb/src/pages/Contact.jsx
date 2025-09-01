@@ -97,6 +97,7 @@ function Contact() {
     justify-content: space-around;
     margin: 40px 0;
     padding: 20px 40px;
+    padding-left: 10px;
     background: #f9f9f9;
     gap: 20px;
     flex-wrap: wrap; /* helps when screen shrinks */
