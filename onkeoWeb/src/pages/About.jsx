@@ -13,6 +13,7 @@ function About() {
       margin: 0 auto;
       padding: 40px 20px;
       font-family: Arial, sans-serif;
+      margin-top:80px;
     }
 
     .about-section {

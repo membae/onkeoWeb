@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const form = useRef();
@@ -112,6 +113,23 @@ function Contact() {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
   }
+    .career-btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: gray;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 15px;
+}
+
+.career-btn:hover {
+  background: #161515ff;
+  transform: translateY(-2px);
+}
+
 
   .office h2, .career h2 {
     color: black;
@@ -138,7 +156,7 @@ function Contact() {
 
       <Navbar/>
 
-      <div className="contact-container">
+      <div className="contact-container" id="contact-form">
         
         <h4>WE'RE HERE TO HELP</h4>
         <h2>Contact Us</h2>
@@ -176,7 +194,14 @@ function Contact() {
         <div className="career">
             <h2>Career With Onkeo</h2>
             <p>Join our team! We’re always looking for talented individuals to grow with us.</p>
-            <button>Contact Us</button>
+            <button
+              className="career-btn"
+              onClick={() => {
+                document.getElementById("contact-form").scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Contact Us
+            </button>
         </div>
         </section>
         <Footer/>

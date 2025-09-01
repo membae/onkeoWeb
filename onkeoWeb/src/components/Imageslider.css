@@ -21,7 +21,7 @@
 
 /* Animations */
 .animate-image {
-  animation: slideInRight 1s ease forwards;
+  animation: slideInRight 0.5s ease-out forwards;
 }
 
 .animate-text {
@@ -31,7 +31,7 @@
   font-size: 2rem;
   font-weight: bold;
   color: black;
-  animation: slideInLeft 1s ease forwards;
+  animation: slideInLeft 0.5s ease-out forwards;
 }
 
 @keyframes slideInRight {
