@@ -15,6 +15,7 @@ function Architecture() {
             text-align: center;
             padding: 40px;
             font-family: Arial, sans-serif;
+            margin-top:80px;
           }
 
           .architecture-container h2 {

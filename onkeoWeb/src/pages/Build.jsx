@@ -15,6 +15,7 @@ function Build() {
             text-align: center;
             padding: 40px;
             font-family: Arial, sans-serif;
+            margin-top:80px;
           }
 
           .build-container h2 {

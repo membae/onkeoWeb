@@ -98,7 +98,7 @@ function Testimonials() {
           service we strive to deliver. Feedback is vital in ensuring we continue
           to improve our service wherever possible.
         </p>
-        <button>LEAVE A REVIEW</button>
+        {/* <button>LEAVE A REVIEW</button> */}
       </section>
       <section>
         <div className="testimonials-grid">

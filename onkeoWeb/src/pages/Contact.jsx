@@ -40,6 +40,7 @@ function Contact() {
     border-radius: 10px;
     background: #f9f9f9;
     font-family: Arial, sans-serif;
+    margin-top:100px;
   }
   .contact-container h4 {
     text-align: center;
@@ -176,7 +177,7 @@ function Contact() {
         <div className="career">
             <h2>Career With Onkeo</h2>
             <p>Join our team! We’re always looking for talented individuals to grow with us.</p>
-            <button>Send your CV</button>
+            <button>Contact Us</button>
         </div>
         </section>
         <Footer/>
