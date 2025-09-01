@@ -79,35 +79,33 @@ function Contact() {
     width: 100%;
   }
   .contact-form button {
-    margin-top: 10px;
-    width: 120px;
-    padding: 12px;
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background 0.3s ease;
-  }
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            background: gray;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s ease;
+          }
   .contact-form button:hover {
-    background: #0056b3;
+     background: #161515ff;
   }
 
   .info-section {
     display: flex;
     justify-content: space-around;
     margin: 40px 0;
-    padding: 20px;
+    padding: 20px 40px;
     background: #f9f9f9;
     gap: 20px;
     flex-wrap: wrap; /* helps when screen shrinks */
   }
 
   .office, .career {
-    flex: 1;
-    min-width: 280px;
-    padding: 20px;
+   flex: 0 1 45%;   /* each card takes ~45% width */
+  max-width: 500px;
+  padding: 20px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
